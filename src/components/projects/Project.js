@@ -5,11 +5,12 @@ function Project(props) {
         <div className="col-12 col-md-6 col-xl-4">
             <div className="card bg-dark">
                 <a href={props.link}><img src={props.src} className="card-img-top" alt={props.alt} /></a>
-                <div className="card-header p-3">
-                    <h5>{props.name}</h5>
+                <div className="bg-dark p-3">
+                    <a href={props.link} className="link-light"><h5>{props.name}</h5></a>
                     <div className="card-text text-muted">{props.technologies}</div>
-                </div>          
-                <div className="bg-dark card-text p-3">{props.description}</div>
+                     
+                    <div className=" card-text p-3">{props.description}</div>
+                </div>
             </div>
         </div>
     );

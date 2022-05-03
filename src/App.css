@@ -30,16 +30,16 @@ body {
   background-image: linear-gradient(-60deg, #150005 50%, #000010 50%);
 }
 .bg-about {
-  background-image: linear-gradient(-60deg, #150510 50%, #000010 50%);
-}
-.bg-timeline {
-  background-image: linear-gradient(-60deg, #080814 50%, #000010 50%);
-}
-.bg-skills {
   background-image: linear-gradient(-60deg, #001018 50%, #000010 50%);
 }
-.bg-projects {
+.bg-timeline {
   background-image: linear-gradient(-60deg, #001510 50%, #000010 50%);
+}
+.bg-skills {
+  background-image: linear-gradient(-60deg, #150510 50%, #000010 50%);
+}
+.bg-projects {
+  background-image: linear-gradient(-60deg, #080814 50%, #000010 50%);
 }
 .bg-contact {
   background-image: linear-gradient(-60deg, #001005 50%, #000010 50%);
@@ -96,4 +96,11 @@ img {
 img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.my-pic {
+  max-width: 50%;
+  border-radius: 25px;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }

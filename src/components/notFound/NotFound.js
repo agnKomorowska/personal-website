@@ -1,7 +1,6 @@
 import React from 'react';
 import './../../App.css';
 import Background from '../common/Background';
-import { Link } from 'react-router-dom'
 
 export default class NotFound extends React.Component {
     render() {
