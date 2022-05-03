@@ -16,11 +16,11 @@ export default class Contact extends React.Component {
                         <div className="col col-12 col-lg-8 ">
                             <div className="card bg-dark p-3">
                                 <div className="row mb-3">
-                                    <div className="col-12 text-center">
-                                    <h5>Mobile: <a href="tel:+48606318515" className="link-light">+48 606 318 515</a></h5>
+                                    <div className="col-12 text-center mb-0">
+                                    <p>Mobile: <a href="tel:+48606318515" className="link-light">+48 606 318 515</a></p>
                                     </div>
-                                    <div className="col-12 text-center">
-                                        <h5>Email: <a href="mailto:agn.komorowska@gmail.com" className="link-light">agn.komorowska@gmail.com</a></h5>
+                                    <div className="col-12 text-center mt-0">
+                                        <p>Email: <a href="mailto:agn.komorowska@gmail.com" className="link-light">agn.komorowska@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <form className="needs-validation" noValidate>
