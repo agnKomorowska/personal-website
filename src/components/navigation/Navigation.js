@@ -5,7 +5,7 @@ export default class Navigation extends React.Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+            <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
