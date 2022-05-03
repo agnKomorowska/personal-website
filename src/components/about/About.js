@@ -1,10 +1,11 @@
 import React from 'react';
+import Background from '../common/Background';
 
 export default class About extends React.Component {
     render() {
         return (
             <div>
-                <p>About component</p>
+                <Background page="about" />
             </div>
         );
     }
