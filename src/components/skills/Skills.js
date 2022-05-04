@@ -3,7 +3,7 @@ import Background from '../common/Background';
 import Frame from '../common/Frame';
 import Skill from './Skill';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faHtml5, faCss3, faSass, faBootstrap, faReact, faJava, faGit, faJenkins, faJira, faAtlassian } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faHtml5, faCss3, faSass, faBootstrap, faReact, faJava, faGit, faJenkins, faAtlassian } from '@fortawesome/free-brands-svg-icons';
 
 
 export default class Skills extends React.Component {
