@@ -11,11 +11,11 @@ export default class Contact extends React.Component {
                 <Frame title="Contact">
 
                     <div className="row mb-3 mt-5">
-                        <div className="d-none d-lg-flex col-12 col-lg-2 "></div>
+                        <div className="d-none d-md-flex col-12 col-md-1 col-lg-2 col-xl-3"></div>
 
-                        <div className="col col-12 col-lg-8 ">
-                            <div className="card bg-dark p-3">
-                                <div className="row mb-3">
+                        <div className="col col-12 col-md-10 col-lg-8 col-xl-6 ">
+                            <div className="card bg-dark p-4">
+                                <div className="row mb-2">
                                     <div className="col-12 text-center mb-0">
                                     <p>Mobile: <a href="tel:+48606318515" className="link-light">+48 606 318 515</a></p>
                                     </div>
