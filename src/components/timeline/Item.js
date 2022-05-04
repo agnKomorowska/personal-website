@@ -31,7 +31,7 @@ function Item(props) {
                 </div>
                 <div className="col-12 col-md-9 text-start">
                     <h5 className="text-center text-md-start">{props.title}</h5>
-                    <p className="text-center text-md-start">{props.company}, {props.city}, {props.country}</p>
+                    <p className="text-center text-md-start text-muted">{props.company}, {props.city}, {props.country}</p>
                     <p>{sDescription}</p>
                     <ul>
                         {listItems}
