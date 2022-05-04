@@ -6,7 +6,7 @@ export default class Home extends React.Component {
     render() {
         return (
                 <div>
-                <Background page="home" />
+                    <Background page="home" />
                     <div className="welcome d-flex justify-content-center">
                         <div className="container align-self-center">
                             <h1 className="text-light p-2">Hi, my name's Agnieszka.</h1>

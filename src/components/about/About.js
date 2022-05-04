@@ -8,9 +8,9 @@ export default class About extends React.Component {
             <div>
                 <Background page="about" />
                 <Frame title="About">
-                    <div className="card bg-dark p-3 text-start">
+                    <div className="card bg-dark p-4 text-start">
                         <div>
-                            <img src="../../img/avatar.png" className="float-start my-pic pe-3 pb-1" alt="..."></img>
+                            <img src="../../img/avatar.png" className="float-start my-pic pe-4 pb-1" alt="..."></img>
                             <p className="pb-2">
                                 Hi there! My name is Agnieszka Komorowska and I used to work in IT as a software tester. 
                                 I ended up in this field because I'm curious about how things work, I always try to understand 
@@ -38,7 +38,6 @@ export default class About extends React.Component {
                                 my first job as a front-end developer. Fingers crossed!
                             </p>
                         </div>
-                        
                     </div>
                 </Frame>
             </div>

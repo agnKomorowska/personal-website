@@ -101,7 +101,7 @@ img:hover {
 
 .my-pic {
   max-width: 50%;
-  border-radius: 25px;
+  border-radius: 0px;
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
