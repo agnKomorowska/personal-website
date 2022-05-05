@@ -105,3 +105,19 @@ img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+
+a.link-light {
+  text-decoration: none;
+}
+
+.link-light:hover {
+  color:#758095;
+}
+
+.link-light {
+  color:darkgray;
+  text-decoration: underline;
+  transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+}

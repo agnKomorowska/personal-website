@@ -15,8 +15,8 @@ function Project(props) {
                     <div className="card-text text-muted">{props.technologies}</div>
                     <div className=" card-text p-3">{props.description}</div>
                     <p>
-                        <a href={props.link} className="link-light pe-3"><FontAwesomeIcon className="pe-2" icon={faGlobe} />Website</a>
-                        <a href={props.githubLink} className="link-light"><FontAwesomeIcon className="pe-2" icon={faGithub} />Code</a>
+                        <FontAwesomeIcon className="pe-2" icon={faGlobe} /><a href={props.link} className="link-light pe-3">Website</a>
+                        <FontAwesomeIcon className="pe-2" icon={faGithub} /><a href={props.githubLink} className="link-light">Code</a>
                     </p>
                 </div>
             </div>
