@@ -1,5 +1,10 @@
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'; 
+
+
 function Project(props) {
     return (
         <div className="col-12 col-md-6 col-xl-4">
@@ -8,8 +13,11 @@ function Project(props) {
                 <div className="bg-dark p-3">
                     <a href={props.link} className="link-light"><h5>{props.name}</h5></a>
                     <div className="card-text text-muted">{props.technologies}</div>
-                     
                     <div className=" card-text p-3">{props.description}</div>
+                    <p>
+                        <a href={props.link} className="link-light pe-4"><FontAwesomeIcon className="pe-2" icon={faGlobe} />Website</a>
+                        <a href={props.githubLink} className="link-light"><FontAwesomeIcon className="pe-2" icon={faGithub} />Code</a>
+                    </p>
                 </div>
             </div>
         </div>

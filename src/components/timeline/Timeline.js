@@ -1,8 +1,8 @@
 import React from 'react';
 import Background from '../common/Background';
 import Frame from '../common/Frame';
-import Item
- from './Item';
+import Item  from './Item';
+
 export default class Timeline extends React.Component {
     render() {
 
