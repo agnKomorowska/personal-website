@@ -94,7 +94,7 @@ export default class Skills extends React.Component {
             <div>
                 <Background page="skills" />
                 <Frame title="Skills">
-                    <div className="row g-5 mb-3">
+                    <div className="row g-5">
                         <Skill title="Front-End Development" skills={frontEndSkills}
                         description="Tools and technologies I'm currently trying to learn by taking different courses, watching tutorials and working on my own projects. "/>
                         <Skill title="Back-End Testing and Integration" skills={backEndSkills} 

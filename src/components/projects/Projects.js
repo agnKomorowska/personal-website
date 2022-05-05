@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
             <div>
                 <Background page="projects" />
                 <Frame title="Projects">
-                    <div className="row g-5 mb-3 ">
+                    <div className="row g-5">
                         <Project name="A Simple To Do List" src="../../img/todo.png" alt="To Do List"
                             link="https://agnkomorowska.github.io/portfolio/todolist/todo.html"
                             githubLink="https://github.com/agnKomorowska/portfolio/tree/main/todolist"
