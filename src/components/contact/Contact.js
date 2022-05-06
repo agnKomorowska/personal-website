@@ -7,6 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'; 
 
 export default class Contact extends React.Component {
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+
+        alert("Sorry, this functionality doesn\'t wotk yet.")
+    };
+
     render() {
         return (
             <div>
@@ -24,7 +31,7 @@ export default class Contact extends React.Component {
                                         <p><FontAwesomeIcon className="pe-2" icon={faEnvelope} /> <a href="mailto:agn.komorowska@gmail.com" className="link-light">agn.komorowska@gmail.com</a></p>
                                     </div>
                                 </div>
-                                <form className="needs-validation" noValidate>
+                                <form className="needs-validation" noValidate onSubmit={this.handleSubmit}>
                                     <div className="row g-3">
                                         <div className="col-12 text-start">
                                             <label for="validationCustom01" className="form-label pt-2">Message Title</label>

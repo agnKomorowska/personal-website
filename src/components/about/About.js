@@ -44,8 +44,10 @@ export default class About extends React.Component {
                                     my first job as a front-end developer. Fingers crossed!
                                 </p>
                                 <h4 className="text-end">
-                                    <Link to="./Komorowska_Agnieszka_CV.pdf" target="_blank" download className="link-light pe-3"><FontAwesomeIcon icon={faC} /><FontAwesomeIcon icon={faV} /></Link>
-                                    <a href="https://github.com/agnKomorowska" className="link-light pe-3"><FontAwesomeIcon icon={faGithub} /></a>
+                                    <Link to="./Komorowska_Agnieszka_CV.pdf" target="_blank" download className="link-light"><FontAwesomeIcon icon={faC} /><FontAwesomeIcon icon={faV} /></Link>
+                                    <span className="ps-2 pe-2"></span>
+                                    <a href="https://github.com/agnKomorowska" className="link-light"><FontAwesomeIcon icon={faGithub} /></a>
+                                    <span className="ps-2 pe-2"></span>
                                     <a href="https://www.linkedin.com/in/agnieszka-komorowska-628411b3/" className="link-light"><FontAwesomeIcon icon={faLinkedin} /></a>
                                 </h4>
                             </div>
