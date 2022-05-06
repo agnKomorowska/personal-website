@@ -1,12 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Collapse } from 'react-bootstrap';
 import '../../App.scss';
 
-
-export default class Navigation extends React.Component {
-
-    
+export default class Navigation extends React.Component {  
 
     render() {
         
