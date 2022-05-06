@@ -1,5 +1,5 @@
 import React from "react";
-import '../common/BackgroundColor.scss';
+import '../../App.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';

@@ -1,8 +1,7 @@
 import React from 'react';
-import '../../App.css';
+import '../../App.scss';
 import Frame from '../common/Frame';
 import Background from '../common/Background';
-import '../common/BackgroundColor.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'; 

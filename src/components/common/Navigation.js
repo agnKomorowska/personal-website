@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './BackgroundColor.scss';
+import '../../App.scss';
 
 
 export default class Navigation extends React.Component {
@@ -20,7 +20,7 @@ export default class Navigation extends React.Component {
                             <li className="nav-item"> <Link className="nav-link link-light" to="/skills">Skills</Link> </li>
                             <li className="nav-item"> <Link className="nav-link link-light" to="/projects">Projects</Link> </li>
                             <li className="nav-item"> <Link className="nav-link link-light" to="/contact">Contact</Link> </li>
-                    </ul>
+                        </ul>
                     </div>
                 </div>
             </nav>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../App.css';
+import '../../App.scss';
 import Background from '../common/Background';
 
 export default class Home extends React.Component {

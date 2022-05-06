@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../App.css';
+import '../../App.scss';
 import Background from '../common/Background';
 
 export default class NotFound extends React.Component {

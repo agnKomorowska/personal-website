@@ -1,4 +1,8 @@
 
+.bg-dark-blue {
+  background-color: #24242b;
+}
+
 html,
 body {
   height: 100vh;
@@ -111,7 +115,7 @@ a, a.link-light {
 }
 
 .link-light:hover {
-  color:aliceblue;
+  color:white;
 }
 
 .link-light {
@@ -122,7 +126,7 @@ a, a.link-light {
 }
 
 a:active, .link-light:active {
-  color:aliceblue;
+  color:white;
   border-style: none;
   border: 0px;
 }
