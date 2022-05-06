@@ -1,4 +1,5 @@
 import React from "react";
+import '../common/BackgroundColor.scss';
 
 function Skill(props) {
     
@@ -18,8 +19,8 @@ function Skill(props) {
     return (
         
         <div className="col-12 col-md-6 col-xl-4">
-            <div className="card bg-dark h-100">
-                <div className="bg-dark p-3">
+            <div className="card bg-dark-blue h-100">
+                <div className="p-3">
                     <h5>{props.title}</h5>
                     <p>{props.description}</p>
                     <div className="card-text p-2 text-centers">                        

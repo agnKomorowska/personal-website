@@ -1,4 +1,5 @@
 import React from 'react';
+import '../common/BackgroundColor.scss';
 
 function Item(props) {
 
@@ -24,7 +25,7 @@ function Item(props) {
 
     return (
         
-        <div className="card bg-dark p-3 pb-0 mb-5">
+        <div className="card bg-dark-blue p-3 pb-0 mb-5">
             <div className="row">
                 <div className="col-12 col-md-3 text-center">
                     <p>{props.time}</p>

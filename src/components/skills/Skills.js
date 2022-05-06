@@ -100,7 +100,7 @@ export default class Skills extends React.Component {
                         <Skill title="Back-End Testing and Integration" skills={backEndSkills} 
                         description="Tools I used for test automation when working as a QA Engineer. Mostly used to test Java plugins and REST APIs."/>
                         <div className="d-none d-md-flex d-xl-none col-3"></div>
-                        <Skill title="Version control, CI/CD and Project Management Tools" skills={otherSkills} 
+                        <Skill title="Version control, CI/CD and Project Management" skills={otherSkills} 
                             description="Tools I used to run scripts on different environments and manage tasks." />
                     </div>
                 </Frame>

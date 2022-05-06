@@ -82,7 +82,7 @@ body {
   text-align: center;
   justify-content: center;
 
-  color: white;
+  color: lightgray;
 
 }
 
@@ -106,18 +106,23 @@ img:hover {
   filter: grayscale(0%);
 }
 
-a.link-light {
+a, a.link-light {
   text-decoration: none;
 }
 
 .link-light:hover {
-  color:#758095;
+  color:aliceblue;
 }
 
 .link-light {
-  color:darkgray;
-  text-decoration: underline;
+  color:#d3d3d3;
   transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
+}
+
+a:active, .link-light:active {
+  color:aliceblue;
+  border-style: none;
+  border: 0px;
 }

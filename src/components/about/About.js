@@ -1,10 +1,14 @@
 import React from 'react';
 import Background from '../common/Background';
 import Frame from '../common/Frame';
+import '../common/BackgroundColor.scss';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { faC, faV } from '@fortawesome/free-solid-svg-icons'; 
+
+
 
 export default class About extends React.Component {
     render() {
@@ -12,7 +16,7 @@ export default class About extends React.Component {
             <div>
                 <Background page="about" />
                 <Frame title="About">
-                    <div className="card bg-dark p-4 text-start">
+                    <div className="card bg-dark-blue p-4 text-start">
                         <div>
                             <img src="../../img/avatar.png" className="float-start my-pic pe-4 pb-1" alt="..."></img>
                             <p className="pb-2">
@@ -41,8 +45,8 @@ export default class About extends React.Component {
                                 </p>
                                 <h4 className="text-end">
                                     <Link to="./Komorowska_Agnieszka_CV.pdf" target="_blank" download className="link-light pe-3"><FontAwesomeIcon icon={faC} /><FontAwesomeIcon icon={faV} /></Link>
-                                    <Link to="https://github.com/agnKomorowska" className="link-light pe-3"><FontAwesomeIcon icon={faGithub} /></Link>
-                                    <Link to="https://www.linkedin.com/in/agnieszka-komorowska-628411b3/" className="link-light"><FontAwesomeIcon icon={faLinkedin} /></Link>
+                                    <a href="https://github.com/agnKomorowska" className="link-light pe-3"><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://www.linkedin.com/in/agnieszka-komorowska-628411b3/" className="link-light"><FontAwesomeIcon icon={faLinkedin} /></a>
                                 </h4>
                             </div>
                         </div>

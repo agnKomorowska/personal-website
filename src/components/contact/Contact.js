@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Frame from '../common/Frame';
 import Background from '../common/Background';
+import '../common/BackgroundColor.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'; 
@@ -15,7 +16,7 @@ export default class Contact extends React.Component {
                     <div className="row mt-5">
                         <div className="d-none d-md-flex col-12 col-md-1 col-lg-2 col-xl-3"></div>
                         <div className="col col-12 col-md-10 col-lg-8 col-xl-6 ">
-                            <div className="card bg-dark p-4">
+                            <div className="card bg-dark-blue p-4">
                                 <div className="row mb-2">
                                     <div className="col-12 col-md-5 text-center text-md-end">
                                         <p><FontAwesomeIcon className="pe-2" icon={faPhone} /><a href="tel:+48606318515" className="link-light">+48 606 318 515</a></p>
