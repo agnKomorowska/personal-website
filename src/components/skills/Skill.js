@@ -8,7 +8,7 @@ function Skill(props) {
     if (props.skills) {
         skills = props.skills;
         listItems = skills.map(skill => (
-            <div className="text-center " style={{ display: "inline-block", width: "70px"}}>
+            <div className="text-center " style={{ display: "inline-block", width: "75px"}}>
                 <h3 className="text-center align-self-center">{skill.icon}</h3>
                 <p className="text-center align-self-center"> {skill.name}</p>
             </div>
